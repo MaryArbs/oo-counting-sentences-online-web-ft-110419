@@ -29,6 +29,4 @@ end
     new_array = self.split(/[.?!]/).reject {|string| string.empty?}
     return new_array.length
   end
-
-  end
 end
